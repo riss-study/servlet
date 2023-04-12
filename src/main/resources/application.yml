@@ -1,0 +1,12 @@
+logging:
+  level:
+    org.apache.coyote.http11: debug
+
+server:
+  port: 9991
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
